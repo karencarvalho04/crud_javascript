@@ -19,3 +19,28 @@
     const result3 = await db.deleteCustomer(7);
     console.log(result3);
 })();
+
+/*connection.query("INSERT INTO clientes(nome, idade, uf) VALUES('Ana', 18, 'SP')", function(err, result){
+    if (!err){
+        console.log("Inserido")
+
+    }else{
+        console.log("Erro: não foi possível consultar");
+    }
+});
+
+connection.query("SELECT * FROM clientes", function(err, rows, fields){
+    if (!err){
+        console.log("Resultado: ", rows);
+    }else{
+        console.log("Erro: não foi possível consultar");
+    }
+});
+
+connection.query("SELECT * FROM clientes", function(err, rows, fields){
+    if (!err){
+        console.log("Resultado: ", rows);
+    }else{
+        console.log("Erro: não foi possível consultar");
+    }
+});*/
